@@ -3,6 +3,7 @@ import {render} from 'react-dom';
 import {MainTitle} from './MainTitle'
 import {FormBug} from './FormBug'
 import {Footer} from './Footer'
+import {List} from './List'
 
 class App extends React.Component {
   render(){
@@ -10,6 +11,7 @@ class App extends React.Component {
       <div>
         <MainTitle />
         <FormBug />
+        <List />
         <Footer />
       </div>
     )
